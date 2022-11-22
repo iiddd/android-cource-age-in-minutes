@@ -1,4 +1,7 @@
 <resources>
-    <string name="app_name">Age in minutes</string>
+    <string name="app_name">Age In Minutes</string>
     <string name="headerText">CALCULATE YOUR</string>
+    <string name="headerText2">AGE</string>
+    <string name="headerText3">IN MINUTES</string>
+    <string name="buttonText">SELECT DATE</string>
 </resources>
