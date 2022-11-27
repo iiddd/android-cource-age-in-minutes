@@ -22,7 +22,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:background="@color/palette_light_gray"
         android:padding="10dp"
         android:text="@string/headerText2"
@@ -33,17 +33,21 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:text="@string/headerText3"
         android:textColor="@color/palette_darker_blue"
         android:textSize="25sp"
         android:textStyle="bold" />
 
     <Button
+        android:layout_marginTop="16dp"
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="18sp"
         android:backgroundTint="@color/palette_darker_blue"
+
         android:text="@string/buttonText"
         android:textColor="@color/white" />
 
@@ -59,10 +63,9 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
         android:text="Selected date"
         android:textColor="@color/palette_light_gray"
-        android:textSize="25sp"
+        android:textSize="26sp"
         android:textStyle="bold" />
 
     <TextView
@@ -71,16 +74,15 @@
         android:layout_marginTop="16dp"
         android:text="10000000"
         android:textColor="@color/palette_darker_blue"
-        android:textSize="30sp"
+        android:textSize="36sp"
         android:textStyle="bold" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
         android:text="Selected date"
         android:textColor="@color/palette_light_gray"
-        android:textSize="25sp"
+        android:textSize="26sp"
         android:textStyle="bold" />
 
 
