@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:background="@color/palette_light_gray"
-        android:padding="10dp"
+        android:padding="8dp"
         android:text="@string/headerText2"
         android:textColor="@color/white"
         android:textSize="25sp"
@@ -40,22 +40,22 @@
         android:textStyle="bold" />
 
     <Button
-        android:layout_marginTop="16dp"
-        android:id="@+id/button"
+        android:id="@+id/btnDatePicker"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textStyle="bold"
-        android:textSize="18sp"
+        android:layout_marginTop="16dp"
         android:backgroundTint="@color/palette_darker_blue"
-
-        android:text="@string/buttonText"
-        android:textColor="@color/white" />
+        android:text="@string/datePickerButtonText"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
     <TextView
+        android:id="@+id/tvSelectedDate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="31.05.1988"
+        android:text="@string/selectedDateDefaultValue"
         android:textColor="@color/palette_darker_blue"
         android:textSize="25sp"
         android:textStyle="bold" />
@@ -63,16 +63,17 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Selected date"
+        android:text="@string/selectedDateTextViewText"
         android:textColor="@color/palette_light_gray"
-        android:textSize="26sp"
+        android:textSize="24sp"
         android:textStyle="bold" />
 
     <TextView
+        android:id="@+id/tvAgeInMinutes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="10000000"
+        android:text="@string/ageInMinutesDefaultValue"
         android:textColor="@color/palette_darker_blue"
         android:textSize="36sp"
         android:textStyle="bold" />
@@ -80,9 +81,9 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Selected date"
+        android:text="@string/ageInMinutesText"
         android:textColor="@color/palette_light_gray"
-        android:textSize="26sp"
+        android:textSize="24sp"
         android:textStyle="bold" />
 
 
