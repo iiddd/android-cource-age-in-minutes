@@ -3,5 +3,9 @@
     <string name="headerText">CALCULATE YOUR</string>
     <string name="headerText2">AGE</string>
     <string name="headerText3">IN MINUTES</string>
-    <string name="buttonText">SELECT DATE</string>
+    <string name="datePickerButtonText">SELECT DATE</string>
+    <string name="ageInMinutesText">Age In Minutes</string>
+    <string name="ageInMinutesDefaultValue">10000000</string>
+    <string name="selectedDateDefaultValue">31.05.1988</string>
+    <string name="selectedDateTextViewText">Selected date</string>
 </resources>
